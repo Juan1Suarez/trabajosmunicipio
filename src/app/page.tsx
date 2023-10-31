@@ -1,10 +1,17 @@
-import Image from 'next/image'
-import styles from './page.module.css'
+
+import { Titulo } from "./componentes/Titulo"
+import { Main } from "./componentes/Main"
+import { Footer } from "./componentes/Footer"
+
 
 export default function Home() {
   return (
-    <main>
-<div>Hola esta es nuestra pagina de empleos municipales oni chan</div>   
-    </main>
+    <>
+    < Titulo />
+
+    <Main/>
+    
+    <Footer/>
+    </>
   )
 }
